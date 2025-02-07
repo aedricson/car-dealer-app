@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/Button";
 import { DropdownLoader } from "@/components/DropdownLoader";
+import { Loading } from "@/components/Loading";
 import { DropdownItem } from "@/types/DropdownItem";
 import { Suspense, useState } from "react";
 
@@ -22,4 +23,4 @@ export default function Home() {
   );
 }
 
-export const Loading = () => <p className="p-2 text-gray-200">Loading data...</p>;
+

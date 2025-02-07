@@ -1,4 +1,4 @@
-import { Loading } from "@/app/page";
+import { Loading } from "@/components/Loading";
 import Car from "@/components/Cars";
 import { getCars } from "@/lib/getCars";
 import { getYears } from "@/lib/getYears";
